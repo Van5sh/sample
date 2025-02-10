@@ -19,14 +19,13 @@ export default function Firstpage() {
                     </p>
                 </div>
 
-                {/* Bottle image overlay shifted downward */}
                 <div className="absolute inset-0 flex justify-center items-center">
                     <Image
                         src={bottl2e}
                         alt="bottle"
                         width={100}
                         height={100}
-                        className="translate-y-32 z-30" // adjust translate-y-32 as needed
+                        className="translate-y-32 z-30"
                     />
                 </div>
             </div>

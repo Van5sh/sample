@@ -11,7 +11,6 @@ import CustomButton from "@/app/components/ui/buttons";
 export default function ThirdPage() {
     return (
         <div className="bg-white min-h-screen">
-            {/* Top section: Heading, paragraph, button */}
             <div className="flex flex-col md:flex-row items-start md:items-center justify-between p-4">
                 <div>
                     <h1 className="text-black text-2xl font-bold mb-2">
