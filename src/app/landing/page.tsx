@@ -9,7 +9,7 @@ import SecondPage from "@/app/components/secondpage";
 export default function Landing() {
     return (
         <div className="bg-white min-h-screen">
-            <Navbar />
+            <Navbar/>
             <FirstPage/>
             <SecondPage/>
             <ThirdPage/>
