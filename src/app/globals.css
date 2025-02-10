@@ -14,6 +14,18 @@
   }
 }
 
+.flex-row::-webkit-scrollbar {
+  display: none;
+}
+
+.flex-row {
+  scrollbar-width: none; /* Hide scrollbar */
+}
+
+.flex-row {
+  -ms-overflow-style: none; /* For IE and Edge */
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
